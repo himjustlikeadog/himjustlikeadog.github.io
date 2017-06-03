@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('this blog||of|黄强|#rectangle|#countdown 3||');
+      S.UI.simulate('this blog|of|黄强|Welcome here|#rectangle|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
